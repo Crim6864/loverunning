@@ -3,7 +3,7 @@
 
 
 /* Asterisk wildcard selector to override defult styles added by the browser */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,6 +22,10 @@ body {
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Main Content */
