@@ -179,6 +179,15 @@ hr {
     color: #3a3a3a;
 }
 
+/* Meet-up section */
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
