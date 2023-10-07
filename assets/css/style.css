@@ -187,6 +187,23 @@ hr {
     flex-wrap: wrap;
 }
 
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less tan 400px wide.
+    each div will espand to fill the available space on its own */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meeup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
